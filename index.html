@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chelsea Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header"> 
+        <nav>
+            <a href="index.html"><img src="images/logo-chelsea.png" alt="chelsea logo" style="width: 90px; height: 90px;"></a>
+            <div class="nav-link" id="navLink" >
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOMEPAGE</a></li>
+                    <li><a href="history.html">HISTORY</a></li>
+                    <li><a href="merchandise.html">MERCHANDISE</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>  
+
+    
+
+        <div class="text-box">
+
+            <h1>The Greatest Club In London</h1>
+            <p>Built from the ground up, Chelsea, from a workers' club slowly rose into being the <b>BIGGEST</b> club in London,<br> 
+            making the likes of Arsenal and Tottenham Hotspurs inferior</p>
+            <a href="" class="btn">Click To Know More!</a>
+            
+
+            
+        </div>
+
+
+
+    
+
+
+
+    </section>
+
+    <!--Text below picture-->
+    <section class="TBP">
+        <h1>text example</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    </section>
+
+
+
+
+
+
+
+
+<!--JavaScript for Phone Menu Popout-->
+    <script>
+
+        var navLink = document.getElementById("navLink");
+        function showMenu()
+        {
+            navLink.style.right="0";
+        }
+        function hideMenu()
+        {
+            navLink.style.right="-200px";
+        }
+        
+
+
+    </script>
+</body>
+</html>
